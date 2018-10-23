@@ -11,7 +11,7 @@ from fontTools.cffLib import (TopDictIndex,
 							  VarStoreData,)
 from fontTools.ttLib import newTable
 from fontTools import varLib
-from cff2mergePen import CFF2CharStringMergePen, MergeTypeError
+from fontTools.cffLib.cff2mergePen import CFF2CharStringMergePen, MergeTypeError
 
 
 def addCFFVarStore(varFont, varModel):
